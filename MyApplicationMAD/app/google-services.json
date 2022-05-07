@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "267403930129",
+    "project_id": "eata-application-mad",
+    "storage_bucket": "eata-application-mad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:267403930129:android:0c0c66d8a748fbd0a0dfb0",
+        "android_client_info": {
+          "package_name": "com.example.myapplicationmad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "267403930129-rcvclu4d4flecgerm3upu54v1ib3dkog.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDl4aKjfNreNe54_vbEopjLTleQZ1YGfII"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "267403930129-rcvclu4d4flecgerm3upu54v1ib3dkog.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
