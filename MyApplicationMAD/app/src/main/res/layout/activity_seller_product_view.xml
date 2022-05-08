@@ -24,7 +24,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="centerCrop"
-            app:srcCompat="@drawable/profile"
+            app:srcCompat="@drawable/profileb"
             tools:ignore="ContentDescription" />
 
     </androidx.cardview.widget.CardView>
@@ -98,7 +98,7 @@
                         android:layout_width="120dp"
                         android:layout_height="120dp"
                         android:translationX="-120dp"
-                        app:srcCompat="@drawable/burger_cartoon" />
+                        app:srcCompat="@drawable/burger_3" />
 
                     <TextView
                         android:id="@+id/t1"
@@ -158,11 +158,11 @@
 
 
                     <ImageView
-                        android:id="@+id/i21"
+                        android:id="@+id/i1"
                         android:layout_width="120dp"
                         android:layout_height="120dp"
                         android:translationX="-120dp"
-                        app:srcCompat="@drawable/burger_cartoon" />
+                        app:srcCompat="@drawable/burger_3" />
 
                     <TextView
                         android:id="@+id/t12"
@@ -222,11 +222,11 @@
 
 
                     <ImageView
-                        android:id="@+id/i11"
+                        android:id="@+id/i1"
                         android:layout_width="120dp"
                         android:layout_height="120dp"
                         android:translationX="-120dp"
-                        app:srcCompat="@drawable/burger_cartoon" />
+                        app:srcCompat="@drawable/burger_3" />
 
                     <TextView
                         android:id="@+id/t11"
