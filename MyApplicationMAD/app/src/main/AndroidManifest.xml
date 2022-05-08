@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplicationMAD">
         <activity
+            android:name=".CusRegister"
+            android:exported="false" />
+        <activity
             android:name=".ResRegister"
             android:exported="false" />
         <activity

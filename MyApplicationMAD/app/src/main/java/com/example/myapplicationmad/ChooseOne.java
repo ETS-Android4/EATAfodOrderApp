@@ -39,7 +39,7 @@ public class ChooseOne extends AppCompatActivity {
                     finish();
                 }
                 if(type.equals("SignUp")){
-                    Intent register = new Intent(ChooseOne.this,SingIn.class);
+                    Intent register = new Intent(ChooseOne.this,CusRegister.class);
                     startActivity(register);
                     finish();
                 }
