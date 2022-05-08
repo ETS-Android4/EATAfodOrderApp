@@ -6,7 +6,7 @@
 ===========
 
 ### Group Leader -IT20649012 - S.M.S FERNANDO (SManeesha99)
-### Memeber 2 - IT20646288 - S.H.U MADUSHAN (umeshmadushan)
+### Member 2 - IT20646288 - S.H.U MADUSHAN (umeshmadushan)
 ### Member 3 - IT20644062 - P.M.D.C. RAJAPAKSHA (Desh19)
 ### Member 4 - IT20646806 - K.D.L.J.KARUNATHILAKA (LankaKarunathilake)
 
