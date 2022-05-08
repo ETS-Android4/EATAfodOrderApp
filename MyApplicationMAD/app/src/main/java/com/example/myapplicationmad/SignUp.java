@@ -19,35 +19,41 @@ public class SignUp extends AppCompatActivity {
         signinphone=(Button)findViewById(R.id.signinphone);
         signup=(Button)findViewById(R.id.signup);
 
-//        signinemail.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent signemail = new Intent(SignUp.this,ChooseOne.class);
-//                signemail.putExtra("Home","Email");
-//                startActivity(signemail);
-//                finish();
-//            }
-//        });
-//
-//        signinphone.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent signphone = new Intent(SignUp.this,ChooseOne.class);
-//                signphone.putExtra("Home","Phone");
-//                startActivity(signphone);
-//                finish();
-//            }
-//        });
-//
-//        signup.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent signup = new Intent(SignUp.this,ChooseOne.class);
-//                signup.putExtra("Home","Signup");
-//                startActivity(signup);
-//                finish();
-//            }
-//        });
+        signinemail.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent signinemail = new Intent(SignUp.this,ChooseOne.class);
+                signinemail.putExtra("Home","Email");
+                startActivity(signinemail);
+                finish();
+            }
+        });
+
+        signinphone.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent signinphone = new Intent(SignUp.this,ChooseOne.class);
+                signinphone.putExtra("Home","Phone");
+                startActivity(signinphone);
+                finish();
+            }
+        });
+
+        signup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent signup = new Intent(SignUp.this,ChooseOne.class);
+                signup.putExtra("Home","SignUp");
+                startActivity(signup);
+                finish();
+            }
+        });
+    }
+    @Override
+    protected void onDestroy() {
+
+        super.onDestroy();
+        System.gc();
     }
 
 }

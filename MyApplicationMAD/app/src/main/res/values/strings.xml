@@ -5,6 +5,8 @@
     <string name="email">Email</string>
     <string name="first_name">First Name</string>
 <string name="sign_up">Sign Up</string>
+<string name="sign_up">Sign Up</string>
+
     <string name="sign_with">Sign In</string>
     <string name="have_you_account">Have you account ?</string>
     <string name="to_do">TODO</string>
