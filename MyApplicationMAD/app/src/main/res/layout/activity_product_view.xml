@@ -22,7 +22,11 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="centerCrop"
+
+            app:srcCompat="@drawable/profileicon"
+
             app:srcCompat="@drawable/profileb"
+
             tools:ignore="ContentDescription" />
 
     </androidx.cardview.widget.CardView>
@@ -57,6 +61,7 @@
 
 
             <Button
+                android:id="@+id/addproduct"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"

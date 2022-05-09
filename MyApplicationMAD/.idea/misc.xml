@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+
         <entry key="..\:/Users/Maniya/Desktop/Year 02 Sem 02/MyApplicationMAD/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/drawable/background_signup.xml" value="0.2495" />
         <entry key="..\:/Users/Maniya/Desktop/Year 02 Sem 02/MyApplicationMAD/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/drawable/orange_button.xml" value="0.2445" />
         <entry key="..\:/Users/Maniya/Desktop/Year 02 Sem 02/MyApplicationMAD/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/drawable/singup_button.xml" value="0.2445" />
@@ -38,6 +39,10 @@
         <entry key="..\:/Users/Umesh/Desktop/MyApplicationMAD/app/src/main/res/layout/activity_view_reasturant.xml" value="0.264" />
         <entry key="..\:/Users/Umesh/Documents/GitHub/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/drawable/bottombackground.xml" value="0.2595" />
         <entry key="..\:/Users/Umesh/Documents/GitHub/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_add_shop_details.xml" value="0.264" />
+
+        <entry key="..\:/Users/Umesh/Documents/GitHub/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_choose_one.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Umesh/Documents/GitHub/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_cus_register.xml" value="0.25416666666666665" />
+
         <entry key="..\:/Users/Umesh/Documents/GitHub/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_edit_product_details.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Umesh/Documents/GitHub/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_edit_resturant_details.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Umesh/Documents/GitHub/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_main3.xml" value="0.25416666666666665" />
