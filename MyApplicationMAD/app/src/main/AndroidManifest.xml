@@ -34,7 +34,7 @@
             android:name=".Offers"
             android:exported="false" />
         <activity
-            android:name=".ProductView"
+            android:name=".SellerProductView"
             android:exported="false" />
         <activity
             android:name=".EditProductDetails"
@@ -42,9 +42,9 @@
         <activity
             android:name=".ProductAdd"
             android:exported="false" />
-        <activity
-            android:name=".SellerProductView"
-            android:exported="false" />
+<!--        <activity-->
+<!--            android:name="c"-->
+<!--            android:exported="false" />-->
         <activity
             android:name=".AddShopDetails"
             android:exported="false" />
