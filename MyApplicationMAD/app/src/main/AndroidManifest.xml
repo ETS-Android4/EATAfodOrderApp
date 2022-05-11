@@ -46,9 +46,6 @@
             android:name=".MainActivity3"
             android:exported="false" />
         <activity
-            android:name=".AddShopDetails"
-            android:exported="false" />
-        <activity
             android:name=".SellarAccount"
             android:exported="false" />
         <activity
@@ -59,9 +56,6 @@
             android:exported="false" />
         <activity
             android:name=".orderp1"
-            android:exported="false" />
-        <activity
-            android:name=".SignUp"
             android:exported="false" />
         <activity
             android:name=".SignUp"

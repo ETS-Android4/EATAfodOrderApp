@@ -29,7 +29,7 @@ public class CusRegister extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cus_register);
 
-        
+
 
     }
 

@@ -47,11 +47,12 @@
         android:id="@+id/scrollView2"
         android:layout_width="406dp"
         android:layout_height="637dp"
+        android:layout_marginTop="88dp"
         android:fillViewport="true"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="94dp"
-        tools:ignore="MissingConstraints">
+
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -111,10 +112,6 @@
                         android:orientation="vertical"
                         android:padding="16dp">
 
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="150dp"
-                            android:src="@drawable/bb" />
 
                         <RelativeLayout
                             android:layout_width="match_parent"
