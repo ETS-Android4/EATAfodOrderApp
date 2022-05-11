@@ -25,7 +25,7 @@
 
             app:srcCompat="@drawable/profileicon"
 
-            app:srcCompat="@drawable/profileb"
+
 
             tools:ignore="ContentDescription" />
 
@@ -50,7 +50,8 @@
         android:fillViewport="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="94dp">
+        tools:layout_editor_absoluteY="94dp"
+        tools:ignore="MissingConstraints">
 
         <LinearLayout
             android:layout_width="match_parent"
