@@ -64,13 +64,13 @@
             android:name=".MainActivity3"
             android:exported="false" />
         <activity
-            android:name=".EditResturantDetails"
+            android:name=".SignUp"
             android:exported="false" />
         <activity
             android:name=".SingIn"
             android:exported="false" />
         <activity
-            android:name=".SignUp"
+            android:name=".EditResturantDetails"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

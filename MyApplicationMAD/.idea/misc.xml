@@ -28,6 +28,7 @@
         <entry key="..\:/Users/Maniya/Desktop/Year 02 Sem 02/MyApplicationMAD/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_sign_up.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/Maniya/Desktop/Year 02 Sem 02/MyApplicationMAD/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_sing_in.xml" value="0.25" />
         <entry key="..\:/Users/Maniya/Desktop/Year 02 Sem 02/MyApplicationMAD/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_view_reasturant.xml" value="0.27291666666666664" />
+
         <entry key="..\:/Users/Umesh/Desktop/MyApplicationMAD/app/src/main/res/layout/activity_add_shop_details.xml" value="0.2" />
         <entry key="..\:/Users/Umesh/Desktop/MyApplicationMAD/app/src/main/res/layout/activity_edit_product_details.xml" value="0.13020833333333334" />
         <entry key="..\:/Users/Umesh/Desktop/MyApplicationMAD/app/src/main/res/layout/activity_edit_resturant_details.xml" value="0.13020833333333334" />
@@ -36,7 +37,8 @@
         <entry key="..\:/Users/Umesh/Desktop/MyApplicationMAD/app/src/main/res/layout/activity_paynow.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Umesh/Desktop/MyApplicationMAD/app/src/main/res/layout/activity_sellar_account.xml" value="0.10833333333333334" />
         <entry key="..\:/Users/Umesh/Desktop/MyApplicationMAD/app/src/main/res/layout/activity_view_reasturant.xml" value="0.264" />
-        <entry key="..\:/Users/Umesh/Documents/GitHub/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_add_shop_details.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Umesh/Documents/GitHub/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/drawable/bottombackground.xml" value="0.2595" />
+        <entry key="..\:/Users/Umesh/Documents/GitHub/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_add_shop_details.xml" value="0.264" />
         <entry key="..\:/Users/Umesh/Documents/GitHub/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_edit_product_details.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Umesh/Documents/GitHub/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_edit_resturant_details.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Umesh/Documents/GitHub/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_main3.xml" value="0.25416666666666665" />
@@ -46,9 +48,9 @@
         <entry key="..\:/Users/Umesh/Documents/GitHub/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_product_add.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Umesh/Documents/GitHub/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_product_view.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Umesh/Documents/GitHub/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_sellar_account.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/Umesh/Documents/GitHub/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_seller_product_view.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/Umesh/Documents/GitHub/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_sign_up.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/Umesh/Documents/GitHub/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_sing_in.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Umesh/Documents/GitHub/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_seller_product_view.xml" value="0.264" />
+        <entry key="..\:/Users/Umesh/Documents/GitHub/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_sign_up.xml" value="0.264" />
+        <entry key="..\:/Users/Umesh/Documents/GitHub/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_sing_in.xml" value="0.264" />
         <entry key="..\:/Users/Umesh/Documents/GitHub/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_view_reasturant.xml" value="0.25416666666666665" />
       </map>
     </option>
@@ -58,12 +60,5 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
-  </component>
-  <component name="VisualizationToolProject">
-    <option name="state">
-      <ProjectState>
-        <option name="scale" value="0.27291666666666664" />
-      </ProjectState>
-    </option>
   </component>
 </project>
