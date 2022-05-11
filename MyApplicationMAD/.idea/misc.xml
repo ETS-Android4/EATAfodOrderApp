@@ -27,6 +27,7 @@
         <entry key="..\:/Users/Maniya/Desktop/Year 02 Sem 02/MyApplicationMAD/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/drawable/background_signup.xml" value="0.2495" />
         <entry key="..\:/Users/Maniya/Desktop/Year 02 Sem 02/MyApplicationMAD/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/drawable/orange_button.xml" value="0.2445" />
         <entry key="..\:/Users/Maniya/Desktop/Year 02 Sem 02/MyApplicationMAD/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/drawable/singup_button.xml" value="0.2445" />
+        <entry key="..\:/Users/Maniya/Desktop/Year 02 Sem 02/MyApplicationMAD/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/drawable/top_background.xml" value="0.123" />
         <entry key="..\:/Users/Maniya/Desktop/Year 02 Sem 02/MyApplicationMAD/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/drawable/transparent_background.xml" value="0.248" />
         <entry key="..\:/Users/Maniya/Desktop/Year 02 Sem 02/MyApplicationMAD/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_add_shop_details.xml" value="0.25" />
         <entry key="..\:/Users/Maniya/Desktop/Year 02 Sem 02/MyApplicationMAD/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_choose_one.xml" value="0.25885416666666666" />
@@ -45,6 +46,7 @@
         <entry key="..\:/Users/Maniya/Desktop/Year 02 Sem 02/MyApplicationMAD/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_res_login.xml" value="0.25" />
         <entry key="..\:/Users/Maniya/Desktop/Year 02 Sem 02/MyApplicationMAD/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_res_loginphone.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/Maniya/Desktop/Year 02 Sem 02/MyApplicationMAD/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_res_register.xml" value="0.33" />
+        <entry key="..\:/Users/Maniya/Desktop/Year 02 Sem 02/MyApplicationMAD/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_restuarent_profile.xml" value="0.15040183696900114" />
         <entry key="..\:/Users/Maniya/Desktop/Year 02 Sem 02/MyApplicationMAD/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_sellar_account.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/Maniya/Desktop/Year 02 Sem 02/MyApplicationMAD/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_seller_product_view.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/Maniya/Desktop/Year 02 Sem 02/MyApplicationMAD/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_sign_up.xml" value="0.27291666666666664" />
