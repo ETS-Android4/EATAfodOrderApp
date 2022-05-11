@@ -23,7 +23,11 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="centerCrop"
-            app:srcCompat="@drawable/profileicon"
+
+            android:src="@drawable/profileicon"
+
+
+
             tools:ignore="ContentDescription" />
 
     </androidx.cardview.widget.CardView>
