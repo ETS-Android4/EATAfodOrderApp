@@ -48,6 +48,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/burger_cartoon"
         tools:layout_editor_absoluteY="102dp" />
 
     <TextView
@@ -59,7 +60,7 @@
         android:layout_marginTop="14dp"
         android:layout_marginEnd="157dp"
         android:layout_marginBottom="8dp"
-        android:text="Chili Pasta"
+        android:text="Burger"
         android:textColor="@color/black"
         android:textSize="20dp"
         android:textStyle="bold"
@@ -330,7 +331,7 @@
         android:layout_marginTop="9dp"
         android:layout_marginEnd="158dp"
         android:layout_marginBottom="9dp"
-        android:text="Order"
+        android:text="Update Order"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/bottom"
         app:layout_constraintEnd_toEndOf="parent"

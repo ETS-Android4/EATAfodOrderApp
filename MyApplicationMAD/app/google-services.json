@@ -1,33 +1,41 @@
 {
   "project_info": {
-    "project_number": "267403930129",
-    "project_id": "eata-application-mad",
-    "storage_bucket": "eata-application-mad.appspot.com"
+    "project_number": "237637569799",
+    "project_id": "eata-6682a",
+    "storage_bucket": "eata-6682a.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:267403930129:android:0c0c66d8a748fbd0a0dfb0",
+        "mobilesdk_app_id": "1:237637569799:android:f829bb65e686ee4054c9a2",
         "android_client_info": {
           "package_name": "com.example.myapplicationmad"
         }
       },
       "oauth_client": [
         {
-          "client_id": "267403930129-rcvclu4d4flecgerm3upu54v1ib3dkog.apps.googleusercontent.com",
+          "client_id": "237637569799-cflc43vtimvkufhl2k7vlv5fq3qf9m1h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplicationmad",
+            "certificate_hash": "3f4ccc66b4bd9f08bd08776b91f1c4dcf4e4029e"
+          }
+        },
+        {
+          "client_id": "237637569799-296cjd25b7941jnni9f0o04g6ce0ma91.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDl4aKjfNreNe54_vbEopjLTleQZ1YGfII"
+          "current_key": "AIzaSyBbde2nKunCGb9KDNn-z49CJOpDB4rQfVw"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "267403930129-rcvclu4d4flecgerm3upu54v1ib3dkog.apps.googleusercontent.com",
+              "client_id": "237637569799-296cjd25b7941jnni9f0o04g6ce0ma91.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
