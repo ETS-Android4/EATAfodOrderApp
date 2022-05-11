@@ -58,16 +58,14 @@
             android:name=".orderp1"
             android:exported="false" />
         <activity
-            android:name=".SignUp"
-            android:exported="false" />
-        <activity
             android:name=".SingIn"
             android:exported="false" />
         <activity
-
             android:name=".ProductView"
+            android:exported="false" />
+        <activity
 
-            android:name=".EditResturantDetails"
+            android:name=".SignUp"
 
             android:exported="true">
             <intent-filter>
