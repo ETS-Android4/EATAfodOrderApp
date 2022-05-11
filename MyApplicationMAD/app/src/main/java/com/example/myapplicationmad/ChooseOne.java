@@ -33,11 +33,6 @@ public class ChooseOne extends AppCompatActivity {
                     finish();
                 }
 
-                if(type.equals("Phone")){
-                    Intent loginphone = new Intent(ChooseOne.this,CustomerLoginphone.class);
-                    startActivity(loginphone);
-                    finish();
-                }
                 if(type.equals("SignUp")){
                     Intent register = new Intent(ChooseOne.this,CusRegister.class);
                     startActivity(register);
@@ -58,11 +53,7 @@ public class ChooseOne extends AppCompatActivity {
                     finish();
                 }
 
-                if(type.equals("Phone")){
-                    Intent loginphone = new Intent(ChooseOne.this,ResLoginphone.class);
-                    startActivity(loginphone);
-                    finish();
-                }
+
                 if(type.equals("SignUp")){
                     Intent resregister = new Intent(ChooseOne.this,ResRegister.class);
                     startActivity(resregister);

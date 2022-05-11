@@ -10,19 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplicationMAD">
         <activity
+            android:name=".CustomerProfile"
+            android:exported="false" />
+        <activity
+            android:name=".RestuarentProfile"
+            android:exported="false" />
+        <activity
             android:name=".CusRegister"
             android:exported="false" />
         <activity
             android:name=".ResRegister"
             android:exported="false" />
         <activity
-            android:name=".ResLoginphone"
-            android:exported="false" />
-        <activity
             android:name=".ResLogin"
-            android:exported="false" />
-        <activity
-            android:name=".CustomerLoginphone"
             android:exported="false" />
         <activity
             android:name=".CustomerLogin"
@@ -64,9 +64,7 @@
             android:name=".ProductView"
             android:exported="false" />
         <activity
-
             android:name=".SignUp"
-
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -201,6 +201,7 @@ public class ResRegister extends AppCompatActivity implements View.OnClickListen
                        public void onComplete(@NonNull Task<Void> task) {
                            if (task.isSuccessful()){
                                Toast.makeText(ResRegister.this, "Resturent Register Successful", Toast.LENGTH_LONG).show();
+                               startActivity(new Intent(ResRegister.this,ResLogin.class));
                            }
                            else {
                                Toast.makeText(ResRegister.this, "Failed to register Resturant! Try again!", Toast.LENGTH_LONG).show();
