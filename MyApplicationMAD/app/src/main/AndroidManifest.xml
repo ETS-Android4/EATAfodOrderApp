@@ -42,9 +42,9 @@
         <activity
             android:name=".ProductAdd"
             android:exported="false" />
-<!--        <activity-->
-<!--            android:name="c"-->
-<!--            android:exported="false" />-->
+        <activity
+            android:name=".MainActivity3"
+            android:exported="false" />
         <activity
             android:name=".AddShopDetails"
             android:exported="false" />
@@ -61,7 +61,7 @@
             android:name=".orderp1"
             android:exported="false" />
         <activity
-            android:name=".MainActivity3"
+            android:name=".SignUp"
             android:exported="false" />
         <activity
             android:name=".SignUp"
@@ -70,7 +70,11 @@
             android:name=".SingIn"
             android:exported="false" />
         <activity
+
+            android:name=".ProductView"
+
             android:name=".EditResturantDetails"
+
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

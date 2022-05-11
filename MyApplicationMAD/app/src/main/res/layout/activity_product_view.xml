@@ -136,6 +136,7 @@
                             android:layout_height="wrap_content">
 
                             <Button
+                                android:id="@+id/editProductDetails"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Edit Detials"
