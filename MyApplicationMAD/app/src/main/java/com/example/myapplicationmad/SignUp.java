@@ -16,7 +16,7 @@ public class SignUp extends AppCompatActivity {
         setContentView(R.layout.activity_sign_up);
 
         signinemail=(Button)findViewById(R.id.signinemail);
-        signinphone=(Button)findViewById(R.id.signinphone);
+//        signinphone=(Button)findViewById(R.id.signinphone);
         signup=(Button)findViewById(R.id.signup);
 
         signinemail.setOnClickListener(new View.OnClickListener() {
@@ -29,15 +29,15 @@ public class SignUp extends AppCompatActivity {
             }
         });
 
-        signinphone.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent signinphone = new Intent(SignUp.this,ChooseOne.class);
-                signinphone.putExtra("Home","Phone");
-                startActivity(signinphone);
-                finish();
-            }
-        });
+//        signinphone.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent signinphone = new Intent(SignUp.this,ChooseOne.class);
+//                signinphone.putExtra("Home","Phone");
+//                startActivity(signinphone);
+//                finish();
+//            }
+//        });
 
         signup.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -54,6 +54,8 @@ public class ResLogin extends AppCompatActivity implements View.OnClickListener{
 
     }
 
+
+
     @Override
     public void onClick(View v) {
         switch (v.getId()){
@@ -90,20 +92,21 @@ public class ResLogin extends AppCompatActivity implements View.OnClickListener{
             return;
         }
 
-        progressBar.setVisibility(View.VISIBLE);
+        progressBar.setVisibility(View.GONE);
 
         mAuth.signInWithEmailAndPassword(email,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
 
                 if (task.isSuccessful()){
-                    startActivity(new Intent(ResLogin.this,CusRegister.class));
+                    startActivity(new Intent(ResLogin.this,RestuarentProfile.class));
                 } else {
                     Toast.makeText(ResLogin.this,"Failed to Login! Please chaeck your credentials", Toast.LENGTH_LONG).show();
                 }
             }
         });
     }
+
 }
 
 //public class ResLogin extends AppCompatActivity {
