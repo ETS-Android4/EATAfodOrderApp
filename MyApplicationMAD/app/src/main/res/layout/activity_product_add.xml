@@ -22,7 +22,11 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="centerCrop"
-            app:srcCompat="@drawable/profileb"
+
+            app:srcCompat="@drawable/profileicon"
+
+
+
             tools:ignore="ContentDescription" />
 
     </androidx.cardview.widget.CardView>
@@ -196,7 +200,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView7" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/save_addProduct"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="156dp"
@@ -218,9 +222,9 @@
         android:layout_marginTop="115dp"
         android:layout_marginEnd="97dp"
         android:ems="10"
+        android:hint="Product Name"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="Product Name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -233,9 +237,9 @@
         android:layout_marginTop="12dp"
         android:layout_marginEnd="95dp"
         android:ems="10"
+        android:hint="Price"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="Price"
         app:layout_constraintBottom_toTopOf="@+id/imageView7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

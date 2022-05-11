@@ -34,7 +34,7 @@
             android:name=".Offers"
             android:exported="false" />
         <activity
-            android:name=".ProductView"
+            android:name=".SellerProductView"
             android:exported="false" />
         <activity
             android:name=".EditProductDetails"
@@ -43,7 +43,7 @@
             android:name=".ProductAdd"
             android:exported="false" />
         <activity
-            android:name=".SellerProductView"
+            android:name=".MainActivity3"
             android:exported="false" />
         <activity
             android:name=".SellarAccount"
@@ -58,16 +58,17 @@
             android:name=".orderp1"
             android:exported="false" />
         <activity
-            android:name=".MainActivity3"
+            android:name=".SignUp"
             android:exported="false" />
         <activity
             android:name=".SingIn"
             android:exported="false" />
         <activity
+
+            android:name=".ProductView"
+
             android:name=".EditResturantDetails"
-            android:exported="false" />
-        <activity
-            android:name=".SignUp"
+
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
