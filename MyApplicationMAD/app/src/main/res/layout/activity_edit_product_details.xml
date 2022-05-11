@@ -23,9 +23,9 @@
             android:layout_height="match_parent"
             android:scaleType="centerCrop"
 
-            app:srcCompat="@drawable/profileicon"
+            android:src="@drawable/profileicon"
 
-            app:srcCompat="@drawable/profileb"
+
 
             tools:ignore="ContentDescription" />
 

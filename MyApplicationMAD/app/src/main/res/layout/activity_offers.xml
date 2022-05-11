@@ -26,7 +26,7 @@
 
             app:srcCompat="@drawable/profileicon"
 
-            app:srcCompat="@drawable/profileb"
+
 
             tools:ignore="ContentDescription" />
 
