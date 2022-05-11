@@ -97,7 +97,7 @@ public class ResLogin extends AppCompatActivity implements View.OnClickListener{
             public void onComplete(@NonNull Task<AuthResult> task) {
 
                 if (task.isSuccessful()){
-                    startActivity(new Intent(ResLogin.this,AddShopDetails.class));
+                    startActivity(new Intent(ResLogin.this,CusRegister.class));
                 } else {
                     Toast.makeText(ResLogin.this,"Failed to Login! Please chaeck your credentials", Toast.LENGTH_LONG).show();
                 }
