@@ -58,7 +58,7 @@
             android:name=".ViewReasturant"
             android:exported="false" />
         <activity
-            android:name=".orderp1"
+            android:name=".EditResturantDetails"
             android:exported="false" />
         <activity
             android:name=".SingIn"
@@ -67,7 +67,11 @@
             android:name=".ProductView"
             android:exported="false" />
         <activity
+
+            android:name=".orderp1"
+
             android:name=".SignUp"
+
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
