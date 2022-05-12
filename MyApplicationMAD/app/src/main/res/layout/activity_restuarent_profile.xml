@@ -87,7 +87,6 @@
                     android:layout_width="45dp"
                     android:layout_height="45dp"
                     android:layout_centerHorizontal="true"
-                    android:src="@drawable/seting"
                     app:srcCompat="@drawable/add_icon" />
 
                 <TextView
@@ -133,7 +132,6 @@
                     android:layout_width="35dp"
                     android:layout_height="35dp"
                     android:layout_centerHorizontal="true"
-                    android:src="@drawable/seting"
                     app:srcCompat="@drawable/resst_icon" />
 
                 <TextView
