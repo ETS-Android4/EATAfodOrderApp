@@ -58,7 +58,7 @@
             android:name=".ViewReasturant"
             android:exported="false" />
         <activity
-            android:name=".orderp1"
+            android:name=".EditResturantDetails"
             android:exported="false" />
         <activity
             android:name=".MainActivity3"
@@ -70,7 +70,7 @@
             android:name=".SingIn"
             android:exported="false" />
         <activity
-            android:name=".EditResturantDetails"
+            android:name=".orderp1"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
