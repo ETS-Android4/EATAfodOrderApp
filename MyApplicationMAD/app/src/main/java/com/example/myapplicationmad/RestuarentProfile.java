@@ -48,6 +48,7 @@ public class RestuarentProfile extends AppCompatActivity {
             public void onClick(View v) {
                 FirebaseAuth.getInstance().signOut();
                 startActivity(new Intent(RestuarentProfile.this,ResLogin.class));
+                finish();
             }
         });
 
