@@ -22,7 +22,10 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="centerCrop"
-            app:srcCompat="@drawable/profileb"
+
+            app:srcCompat="@drawable/profileicon"
+
+
             tools:ignore="ContentDescription" />
 
     </androidx.cardview.widget.CardView>
@@ -232,9 +235,9 @@
         android:layout_marginEnd="100dp"
         android:ems="10"
         android:gravity="center"
+        android:hint="Card Number"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="Card Number"
         app:layout_constraintBottom_toBottomOf="@+id/bottom"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -252,9 +255,9 @@
         android:layout_marginBottom="136dp"
         android:ems="10"
         android:gravity="center"
+        android:hint="CVC"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="CVC"
         app:layout_constraintBottom_toTopOf="@+id/bottom"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

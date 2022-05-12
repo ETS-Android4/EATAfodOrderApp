@@ -27,29 +27,14 @@
         android:layout_height="74dp"
         android:backgroundTint="#FF9800"
         android:drawableStart="@drawable/black_email"
-        android:text="@string/signin_with_email"
+        android:text="LOGIN"
+        android:textSize="24sp"
         app:cornerRadius="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.469" />
-
-    <Button
-        android:id="@+id/signinphone"
-        android:layout_width="283dp"
-        android:layout_height="74dp"
-        android:backgroundTint="#FF9800"
-        android:drawableStart="@drawable/black_phone"
-        android:text="@string/signin_with_phone"
-        app:cornerRadius="50dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/signinemail"
-        app:layout_constraintVertical_bias="0.112" />
+        app:layout_constraintVertical_bias="0.528" />
 
     <androidx.constraintlayout.widget.Barrier
         android:layout_width="wrap_content"
@@ -69,29 +54,35 @@
         android:id="@+id/signup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+
         android:layout_marginBottom="152dp"
         android:backgroundTint="#00FFFFFF"
         android:text="sign_up"
         android:textColor="#FDFDFD"
         app:iconTint="#E3D4D4"
+
+        android:layout_marginBottom="172dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Register"
+        app:cornerRadius="10dp"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.8"
-        app:layout_constraintStart_toStartOf="parent"
-        app:rippleColor="#FFFFFF" />
+        app:layout_constraintHorizontal_bias="0.348"
+        app:layout_constraintStart_toEndOf="@+id/textView2" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="172dp"
         android:layout_height="21dp"
-        android:text="@string/already_have_an_account"
+        android:text="You haven't Account ? "
         android:textColor="#8C8A8A"
-        android:textSize="12sp"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.351"
+        app:layout_constraintHorizontal_bias="0.347"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.77" />
+        app:layout_constraintVertical_bias="0.754" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -24,7 +24,11 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="centerCrop"
-            app:srcCompat="@drawable/profileb"
+
+            app:srcCompat="@drawable/profileicon"
+
+
+
             tools:ignore="ContentDescription" />
 
     </androidx.cardview.widget.CardView>
@@ -158,7 +162,7 @@
 
 
                     <ImageView
-                        android:id="@+id/i1"
+                        android:id="@+id/i1i"
                         android:layout_width="120dp"
                         android:layout_height="120dp"
                         android:translationX="-120dp"
@@ -222,7 +226,7 @@
 
 
                     <ImageView
-                        android:id="@+id/i1"
+                        android:id="@+id/i1l"
                         android:layout_width="120dp"
                         android:layout_height="120dp"
                         android:translationX="-120dp"
