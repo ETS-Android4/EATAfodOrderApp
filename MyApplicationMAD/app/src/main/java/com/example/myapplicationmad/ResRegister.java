@@ -6,6 +6,7 @@ import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -44,6 +45,9 @@ public class ResRegister extends AppCompatActivity implements View.OnClickListen
 
         rregister=(Button) findViewById(R.id.RSignup);
         rregister.setOnClickListener(this);
+
+
+
 
         rname=(EditText) findViewById(R.id.RName);
         remail=(EditText) findViewById(R.id.REmail);
