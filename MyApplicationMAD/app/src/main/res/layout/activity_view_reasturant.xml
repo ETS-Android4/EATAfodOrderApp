@@ -7,6 +7,7 @@
     tools:context=".ViewReasturant">
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/cardView4"
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:layout_margin="10dp"
@@ -26,7 +27,6 @@
             app:srcCompat="@drawable/profileicon"
 
 
-
             tools:ignore="ContentDescription" />
 
     </androidx.cardview.widget.CardView>
@@ -38,21 +38,34 @@
         android:layout_height="69dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        android:layout_marginEnd="172dp"
+        app:layout_constraintEnd_toStartOf="@+id/cardView4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/asset_1" />
 
     <ScrollView
         android:id="@+id/scrollView2"
+
+        android:layout_width="407dp"
+        android:layout_height="581dp"
+        android:layout_marginTop="12dp"
+
         android:layout_width="406dp"
         android:layout_height="637dp"
         android:contentDescription="@string/eata"
+
         android:fillViewport="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView4"
+        tools:ignore="MissingConstraints">
+
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent" />
+
 
 
     <LinearLayout
