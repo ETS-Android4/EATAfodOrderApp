@@ -10,19 +10,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplicationMAD">
         <activity
+            android:name=".AddFood"
+            android:exported="false" />
+        <activity
+            android:name=".CustomerProfile"
+            android:exported="false" />
+        <activity
+            android:name=".RestuarentProfile"
+            android:exported="false" />
+        <activity
             android:name=".CusRegister"
             android:exported="false" />
         <activity
             android:name=".ResRegister"
             android:exported="false" />
         <activity
-            android:name=".ResLoginphone"
-            android:exported="false" />
-        <activity
             android:name=".ResLogin"
-            android:exported="false" />
-        <activity
-            android:name=".CustomerLoginphone"
             android:exported="false" />
         <activity
             android:name=".CustomerLogin"
@@ -46,10 +49,7 @@
             android:name=".MainActivity3"
             android:exported="false" />
         <activity
-            android:name=".AddShopDetails"
-            android:exported="false" />
-        <activity
-            android:name=".ProductView"
+            android:name=".SellarAccount"
             android:exported="false" />
         <activity
             android:name=".paynow"
@@ -58,20 +58,20 @@
             android:name=".ViewReasturant"
             android:exported="false" />
         <activity
-            android:name=".orderp1"
-            android:exported="false" />
-        <activity
-            android:name=".SignUp"
+            android:name=".EditResturantDetails"
             android:exported="false" />
         <activity
             android:name=".SingIn"
             android:exported="false" />
         <activity
-            android:name=".EditResturantDetails"
+            android:name=".ProductView"
             android:exported="false" />
         <activity
 
-            android:name=".SellarAccount"
+            android:name=".orderp1"
+
+            android:name=".SignUp"
+
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
