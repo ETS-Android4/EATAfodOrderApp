@@ -1,6 +1,6 @@
 package com.example.myapplicationmad;
 
-import androidx.appcompat.app.AppCompatActivity;
+import android.app.Activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -29,3 +29,7 @@ public class AddShopDetails extends AppCompatActivity {
 
     }
 }
+
+public class AddShopDetails extends Activity {
+}
+
