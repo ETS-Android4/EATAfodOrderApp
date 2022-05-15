@@ -13,5 +13,6 @@
     <string name="signin_with_phone">SIGNIN WITH PHONE</string>
     <string name="todo">TODO</string>
     <string name="eata">Eata</string>
+    <string name="resturent_name">Resturent Name</string>
 
 </resources>

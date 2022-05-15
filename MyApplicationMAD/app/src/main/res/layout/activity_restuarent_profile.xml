@@ -26,12 +26,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_marginLeft="10dp"
-            android:layout_toRightOf="@+id/profile_image"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/profile_image"
             android:fontFamily="@font/bungee"
             android:includeFontPadding="false"
-            android:text="Resturent Name"
-            android:textSize="20dp" />
+            android:text="@string/resturent_name"
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/Resemail"
@@ -42,6 +42,7 @@
             android:layout_toRightOf="@+id/profile_image"
             android:includeFontPadding="false"
             android:text="Restaurent@gmail.com"
+            android:textColor="#5D4037"
             android:textSize="14dp" />
 
         <Button
@@ -108,6 +109,7 @@
                     android:layout_centerInParent="true"
                     android:includeFontPadding="false"
                     android:text="Click Here"
+                    android:textColor="#795548"
                     android:textSize="14sp" />
             </RelativeLayout>
         </com.google.android.material.card.MaterialCardView>
@@ -135,7 +137,7 @@
                     app:srcCompat="@drawable/resst_icon" />
 
                 <TextView
-                    android:id="@+id/prof"
+                    android:id="@+id/all"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
@@ -149,10 +151,11 @@
                     android:id="@+id/prof_desc"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/prof"
+                    android:layout_below="@id/all"
                     android:layout_centerInParent="true"
                     android:includeFontPadding="false"
                     android:text="Click Here"
+                    android:textColor="#795548"
                     android:textSize="14sp" />
             </RelativeLayout>
         </com.google.android.material.card.MaterialCardView>
@@ -175,6 +178,7 @@
             android:layout_marginBottom="10dp"
             android:hint="Restuarent Name "
             android:textAlignment="center"
+            android:textColorHint="#757575"
             android:textSize="16sp"
             tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
 
@@ -185,6 +189,7 @@
             android:layout_marginBottom="10dp"
             android:hint="Restuarent Email "
             android:textAlignment="center"
+            android:textColorHint="#757575"
             android:textSize="16sp"
             tools:ignore="TouchTargetSizeCheck" />
 
@@ -195,6 +200,7 @@
             android:layout_marginBottom="10dp"
             android:hint="Restuarent Contact No "
             android:textAlignment="center"
+            android:textColorHint="#757575"
             android:textSize="16sp"
             tools:ignore="TouchTargetSizeCheck" />
 
@@ -205,6 +211,7 @@
             android:layout_marginBottom="10dp"
             android:hint="Restuarent Location "
             android:textAlignment="center"
+            android:textColorHint="#757575"
             android:textSize="16sp"
             tools:ignore="TouchTargetSizeCheck" />
 
