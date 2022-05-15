@@ -39,14 +39,10 @@ public class ResRegister extends AppCompatActivity implements View.OnClickListen
         setContentView(R.layout.activity_res_register);
 
         mAuth = FirebaseAuth.getInstance();
-
         banner = (TextView) findViewById(R.id.hdv);
         banner.setOnClickListener(this);
-
         rregister=(Button) findViewById(R.id.RSignup);
         rregister.setOnClickListener(this);
-
-
 
 
         rname=(EditText) findViewById(R.id.RName);
