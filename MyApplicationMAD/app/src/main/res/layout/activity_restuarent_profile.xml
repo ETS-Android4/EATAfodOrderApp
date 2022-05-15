@@ -18,10 +18,10 @@
             android:id="@+id/profile_image"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            app:civ_border_width="2dp"
-            app:civ_border_color="@color/black"
             android:layout_centerVertical="true"
-            android:src="@drawable/rounded_profile" />
+            android:src="@drawable/rounded_profile"
+            app:civ_border_color="@color/black"
+            app:civ_border_width="2dp" />
 
         <TextView
             android:id="@+id/Resname"
