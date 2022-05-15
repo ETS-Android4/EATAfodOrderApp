@@ -14,14 +14,12 @@
         android:background="@drawable/orange_button"
         android:padding="20dp">
 
-        <de.hdodenhof.circleimageview.CircleImageView
+        <ImageView
             android:id="@+id/profile_image"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:layout_centerVertical="true"
-            android:src="@drawable/rounded_profile"
-            app:civ_border_color="@color/black"
-            app:civ_border_width="2dp" />
+            app:srcCompat="@drawable/rounded_profile" />
 
         <TextView
             android:id="@+id/Resname"
