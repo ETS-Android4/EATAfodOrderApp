@@ -6,7 +6,6 @@ import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -39,11 +38,12 @@ public class ResRegister extends AppCompatActivity implements View.OnClickListen
         setContentView(R.layout.activity_res_register);
 
         mAuth = FirebaseAuth.getInstance();
+
         banner = (TextView) findViewById(R.id.hdv);
         banner.setOnClickListener(this);
+
         rregister=(Button) findViewById(R.id.RSignup);
         rregister.setOnClickListener(this);
-
 
         rname=(EditText) findViewById(R.id.RName);
         remail=(EditText) findViewById(R.id.REmail);

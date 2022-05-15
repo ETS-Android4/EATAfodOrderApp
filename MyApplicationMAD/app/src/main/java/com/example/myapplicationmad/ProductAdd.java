@@ -14,7 +14,7 @@ public class ProductAdd extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_product_add);
-        SubmitAddproduct= (Button)findViewById(R.id.save_addProduct);
+        SubmitAddproduct= (Button)findViewById(R.id.submit_addResturant);
 
         SubmitAddproduct.setOnClickListener(new View.OnClickListener() {
             @Override
