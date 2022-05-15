@@ -14,7 +14,6 @@
         android:layout_marginEnd="16dp"
         app:cardCornerRadius="50dp"
         app:cardElevation="0dp"
-        app:layout_constraintBottom_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -27,7 +26,6 @@
             app:srcCompat="@drawable/profileicon"
 
 
-
             tools:ignore="ContentDescription" />
 
     </androidx.cardview.widget.CardView>
@@ -37,31 +35,23 @@
         android:id="@+id/imageView8"
         android:layout_width="143dp"
         android:layout_height="69dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
 
-        android:layout_marginEnd="172dp"
+        android:layout_marginEnd="153dp"
+        android:layout_marginBottom="42dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
         app:layout_constraintEnd_toStartOf="@+id/cardView2"
-
-        app:layout_constraintBottom_toTopOf="parent"
-
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/asset_1" />
-
-
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="406dp"
         android:layout_height="151dp"
-        android:layout_marginTop="22dp"
+        android:layout_marginTop="31dp"
         android:src="@drawable/shop1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView2" />
-
 
     <TextView
         android:id="@+id/textView"
@@ -86,27 +76,23 @@
         android:layout_width="355dp"
         android:layout_height="66dp"
         android:layout_gravity="center"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="1dp"
-        android:layout_marginEnd="28dp"
-        android:layout_marginBottom="13dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="19dp"
         android:text="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
         android:textAlignment="center"
         android:textColor="@color/black"
-        app:layout_constraintBottom_toTopOf="@+id/textView4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <View
         android:id="@+id/bottom"
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:layout_marginTop="147dp"
         android:background="@drawable/bottombackground"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioButton2" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <LinearLayout
         android:id="@+id/shop"
@@ -277,46 +263,28 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioButton" />
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="18dp"
-        android:layout_marginTop="155dp"
-        android:layout_marginEnd="157dp"
-        android:layout_marginBottom="10dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView8"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/textView7"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"
-        app:srcCompat="@drawable/add" />
-
     <TextView
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="155dp"
         android:layout_marginBottom="13dp"
         android:text="1"
         android:textColor="#000000"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/textView8"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="39dp"
+        android:layout_height="30dp"
         android:layout_marginStart="149dp"
-        android:layout_marginTop="115dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="10dp"
         app:layout_constraintBottom_toTopOf="@+id/textView8"
         app:layout_constraintEnd_toStartOf="@+id/textView7"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
         app:srcCompat="@drawable/remove" />
 
     <TextView
@@ -349,5 +317,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="35dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="149dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView7"
+        app:srcCompat="@drawable/plus_icon" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
