@@ -42,5 +42,3 @@ public class FoodSupplyDetails {
         this.description = description;
     }
 }
-
-

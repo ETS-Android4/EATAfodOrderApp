@@ -131,7 +131,7 @@ public class Pro_pic extends AppCompatActivity {
 
         if (imageUri != null){
             final StorageReference fileRef = storageReference
-                    .child(mAuth.getCurrentUser().getUid()+".png");
+                    .child(mAuth.getCurrentUser().getUid()+".jpg");
 
             uploadeTask = fileRef.putFile(imageUri);
 
