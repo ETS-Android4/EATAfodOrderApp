@@ -8,14 +8,14 @@ import android.view.View;
 import android.widget.Button;
 
 public class ProductView extends AppCompatActivity {
-    private Button Addproduct,EditProductDetails;
+    private Button Addproduct,EditResturantDetails;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_product_view);
         Addproduct= (Button)findViewById(R.id.addproduct);
-        EditProductDetails=(Button)findViewById(R.id.editProductDetails);
+        EditResturantDetails=(Button)findViewById(R.id.editProductDetails);
 
         Addproduct.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -26,10 +26,10 @@ public class ProductView extends AppCompatActivity {
             }
         });
 
-        EditProductDetails.setOnClickListener(new View.OnClickListener() {
+        EditResturantDetails.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(ProductView.this,EditProductDetails.class);
+                Intent intent=new Intent(ProductView.this,EditResturantDetails.class);
                 startActivity(intent);
                 finish();
             }

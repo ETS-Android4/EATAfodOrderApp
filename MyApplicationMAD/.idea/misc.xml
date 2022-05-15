@@ -24,20 +24,17 @@
         <entry key="..\:/Users/ASUS/OneDrive/Documents/GitHub/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_sign_up.xml" value="0.1140625" />
         <entry key="..\:/Users/ASUS/OneDrive/Documents/GitHub/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_sing_in.xml" value="0.1140625" />
         <entry key="..\:/Users/ASUS/OneDrive/Documents/GitHub/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_view_reasturant.xml" value="0.1140625" />
-        <entry key="..\:/Users/LANKA/MAD/MyApplicationMAD/app/src/main/res/layout/activity_add_food.xml" value="0.23645833333333333" />
-        <entry key="..\:/Users/LANKA/MAD/MyApplicationMAD/app/src/main/res/layout/activity_add_shop_details.xml" value="0.23645833333333333" />
-        <entry key="..\:/Users/LANKA/MAD/MyApplicationMAD/app/src/main/res/layout/activity_choose_one.xml" value="0.23645833333333333" />
-        <entry key="..\:/Users/LANKA/MAD/MyApplicationMAD/app/src/main/res/layout/activity_cus_register.xml" value="0.23645833333333333" />
-        <entry key="..\:/Users/LANKA/MAD/MyApplicationMAD/app/src/main/res/layout/activity_customer_login.xml" value="0.23645833333333333" />
-        <entry key="..\:/Users/LANKA/MAD/MyApplicationMAD/app/src/main/res/layout/activity_sign_up.xml" value="0.23645833333333333" />
-        <entry key="..\:/Users/LANKA/MAD/MyApplicationMAD/app/src/main/res/layout/activity_sing_in.xml" value="0.23645833333333333" />
-        <entry key="..\:/Users/LANKA/MAD/MyApplicationMAD/app/src/main/res/layout/activity_view_reasturant.xml" value="0.23645833333333333" />
         <entry key="..\:/Users/Maniya/Desktop/Year 02 Sem 02/MyApplicationMAD/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/drawable/background_signup.xml" value="0.2495" />
-
+        <entry key="..\:/Users/Maniya/Desktop/Year 02 Sem 02/MyApplicationMAD/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/drawable/camerabtnshape.xml" value="0.175" />
+<<<<<<< HEAD
+=======
+        <entry key="..\:/Users/Maniya/Desktop/Year 02 Sem 02/MyApplicationMAD/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/drawable/ic_baseline_camera_alt_24.xml" value="0.175" />
+>>>>>>> parent of 552c94f (Revert "insert food details")
         <entry key="..\:/Users/Maniya/Desktop/Year 02 Sem 02/MyApplicationMAD/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/drawable/orange_button.xml" value="0.2445" />
         <entry key="..\:/Users/Maniya/Desktop/Year 02 Sem 02/MyApplicationMAD/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/drawable/singup_button.xml" value="0.2445" />
         <entry key="..\:/Users/Maniya/Desktop/Year 02 Sem 02/MyApplicationMAD/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/drawable/top_background.xml" value="0.123" />
         <entry key="..\:/Users/Maniya/Desktop/Year 02 Sem 02/MyApplicationMAD/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/drawable/transparent_background.xml" value="0.248" />
+        <entry key="..\:/Users/Maniya/Desktop/Year 02 Sem 02/MyApplicationMAD/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_add_food.xml" value="0.26871794871794874" />
         <entry key="..\:/Users/Maniya/Desktop/Year 02 Sem 02/MyApplicationMAD/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_add_shop_details.xml" value="0.25" />
         <entry key="..\:/Users/Maniya/Desktop/Year 02 Sem 02/MyApplicationMAD/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_choose_one.xml" value="0.25885416666666666" />
         <entry key="..\:/Users/Maniya/Desktop/Year 02 Sem 02/MyApplicationMAD/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_cus_register.xml" value="0.16615384615384615" />
@@ -50,12 +47,13 @@
         <entry key="..\:/Users/Maniya/Desktop/Year 02 Sem 02/MyApplicationMAD/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_offers.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/Maniya/Desktop/Year 02 Sem 02/MyApplicationMAD/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_orderp1.xml" value="0.25" />
         <entry key="..\:/Users/Maniya/Desktop/Year 02 Sem 02/MyApplicationMAD/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_paynow.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Maniya/Desktop/Year 02 Sem 02/MyApplicationMAD/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_pro_pic.xml" value="0.33" />
         <entry key="..\:/Users/Maniya/Desktop/Year 02 Sem 02/MyApplicationMAD/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_product_add.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/Maniya/Desktop/Year 02 Sem 02/MyApplicationMAD/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_product_view.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/Maniya/Desktop/Year 02 Sem 02/MyApplicationMAD/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_res_login.xml" value="0.25" />
         <entry key="..\:/Users/Maniya/Desktop/Year 02 Sem 02/MyApplicationMAD/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_res_loginphone.xml" value="0.27291666666666664" />
-        <entry key="..\:/Users/Maniya/Desktop/Year 02 Sem 02/MyApplicationMAD/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_res_register.xml" value="0.33" />
-        <entry key="..\:/Users/Maniya/Desktop/Year 02 Sem 02/MyApplicationMAD/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_restuarent_profile.xml" value="0.11851851851851852" />
+        <entry key="..\:/Users/Maniya/Desktop/Year 02 Sem 02/MyApplicationMAD/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_res_register.xml" value="0.1" />
+        <entry key="..\:/Users/Maniya/Desktop/Year 02 Sem 02/MyApplicationMAD/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_restuarent_profile.xml" value="0.25" />
         <entry key="..\:/Users/Maniya/Desktop/Year 02 Sem 02/MyApplicationMAD/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_sellar_account.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/Maniya/Desktop/Year 02 Sem 02/MyApplicationMAD/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_seller_product_view.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/Maniya/Desktop/Year 02 Sem 02/MyApplicationMAD/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_sign_up.xml" value="0.27291666666666664" />
@@ -69,10 +67,6 @@
         <entry key="..\:/Users/Umesh/Desktop/MyApplicationMAD/app/src/main/res/layout/activity_paynow.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Umesh/Desktop/MyApplicationMAD/app/src/main/res/layout/activity_sellar_account.xml" value="0.10833333333333334" />
         <entry key="..\:/Users/Umesh/Desktop/MyApplicationMAD/app/src/main/res/layout/activity_view_reasturant.xml" value="0.264" />
-        <entry key="..\:/Users/Umesh/Documents/GitHub/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/drawable/bottombackground.xml" value="0.2595" />
-        <entry key="..\:/Users/Umesh/Documents/GitHub/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_add_shop_details.xml" value="0.264" />
-        <entry key="..\:/Users/Umesh/Documents/GitHub/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_choose_one.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/Umesh/Documents/GitHub/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_cus_register.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Umesh/Documents/GitHub/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_edit_product_details.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Umesh/Documents/GitHub/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_edit_resturant_details.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Umesh/Documents/GitHub/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_main3.xml" value="0.25416666666666665" />
@@ -83,7 +77,7 @@
         <entry key="..\:/Users/Umesh/Documents/GitHub/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_product_view.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Umesh/Documents/GitHub/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_sellar_account.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Umesh/Documents/GitHub/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_seller_product_view.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/Umesh/Documents/GitHub/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_sign_up.xml" value="0.4" />
+        <entry key="..\:/Users/Umesh/Documents/GitHub/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_sign_up.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Umesh/Documents/GitHub/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_sing_in.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Umesh/Documents/GitHub/EATAfodOrderApp/MyApplicationMAD/app/src/main/res/layout/activity_view_reasturant.xml" value="0.25416666666666665" />
       </map>

@@ -54,18 +54,13 @@
         android:id="@+id/signup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
-        android:layout_marginBottom="164dp"
+        android:layout_marginBottom="172dp"
         android:backgroundTint="#FFFFFF"
-
         android:text="Register"
-        android:textColor="#000000"
         app:cornerRadius="10dp"
-        app:iconTint="#E3D4D4"
-
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.34"
+        app:layout_constraintHorizontal_bias="0.348"
         app:layout_constraintStart_toEndOf="@+id/textView2" />
 
     <TextView
