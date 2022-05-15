@@ -14,10 +14,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplicationMAD">
         <activity
+
+            android:name=".activity_select_order"
+
             android:name=".AllFoods"
             android:exported="false" />
         <activity
             android:name=".Pro_pic"
+
             android:exported="false" />
         <activity
             android:name=".AddFood"
