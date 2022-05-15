@@ -3,6 +3,10 @@ package com.example.myapplicationmad;
 public class FoodSupplyDetails {
     String dishes,quantity,price,description;
 
+    public FoodSupplyDetails(){
+
+    }
+
     public FoodSupplyDetails(String dishes, String quantity, String price, String description) {
         this.dishes = dishes;
         this.quantity = quantity;

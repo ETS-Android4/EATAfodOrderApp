@@ -30,9 +30,9 @@ public class RestuarentProfile extends AppCompatActivity {
     private FirebaseUser user;
     private DatabaseReference reference;
     private String resId;
-    private TextView addfood;
+    private TextView addfood,all;
     private Button reslogout;
-//    private ImageView profile_image;
+    private ImageView profile_image;
 
 
 
@@ -43,8 +43,8 @@ public class RestuarentProfile extends AppCompatActivity {
 
         reslogout=(Button) findViewById(R.id.reslogout);
         addfood=(TextView) findViewById(R.id.addfood);
-
-//        profileImage=findViewById(R.id.profile_image);
+        all=(TextView)findViewById(R.id.all);
+        profileImage=findViewById(R.id.profile_image);
 
         profileImage= (CircleImageView) findViewById(R.id.profile_image);
         profileImage.setOnClickListener(new View.OnClickListener() {
@@ -64,6 +64,15 @@ public class RestuarentProfile extends AppCompatActivity {
                 startActivity(new Intent(RestuarentProfile.this,AddFood.class));
             }
         });
+
+        all.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(RestuarentProfile.this,AllFoods.class));
+            }
+        });
+
+
 
         reslogout.setOnClickListener(new View.OnClickListener() {
             @Override
