@@ -7,7 +7,6 @@
     tools:context=".ViewReasturant">
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cardView4"
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:layout_margin="10dp"
@@ -27,6 +26,7 @@
             app:srcCompat="@drawable/profileicon"
 
 
+
             tools:ignore="ContentDescription" />
 
     </androidx.cardview.widget.CardView>
@@ -38,185 +38,228 @@
         android:layout_height="69dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="172dp"
-        app:layout_constraintEnd_toStartOf="@+id/cardView4"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/asset_1" />
 
     <ScrollView
         android:id="@+id/scrollView2"
-
-        android:layout_width="409dp"
-
-        android:layout_height="580dp"
-        android:layout_marginTop="12dp"
-
+        android:layout_width="406dp"
+        android:layout_height="637dp"
         android:contentDescription="@string/eata"
-
         android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardView4"
-        tools:ignore="MissingConstraints">
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
 
 
-        <LinearLayout
-            android:id="@+id/linearLayout"
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/scrollView2">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:src="@drawable/shop1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Katagesma returant - Malabe"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Location"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <!-- shops start -->
+
+
+        <GridLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            app:layout_constraintBottom_toBottomOf="@+id/scrollView2">
+            android:alignmentMode="alignMargins"
+            android:columnCount="1"
+            android:columnOrderPreserved="false"
+            android:rowCount="6">
 
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:src="@drawable/shop1" />
-
-            <TextView
+            <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="10dp"
-                android:text="Katagesma returant - Malabe"
-                android:textColor="@color/black"
-                android:textSize="18dp"
-                android:textStyle="bold" />
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="6dp">
 
-            <TextView
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="12dp"
+                            android:text="number 01"
+                            android:textColor="#020202"
+                            android:textSize="22sp"
+                            android:textStyle="bold" />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="number 02"
+                            android:textColor="#6f6f6f"
+                            android:textSize="18sp" />
+
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="10dp"
-                android:text="Location"
-                android:textColor="@color/black"
-                android:textSize="18dp" />
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="6dp">
 
-            <!-- shops start -->
-
-
-            <GridLayout
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:alignmentMode="alignMargins"
-                android:columnCount="1"
-                android:columnOrderPreserved="false"
-                android:rowCount="6">
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="16dp">
 
-                <androidx.cardview.widget.CardView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_rowWeight="1"
-                    android:layout_columnWeight="1"
-                    android:layout_margin="12dp"
-                    app:cardCornerRadius="5dp"
-                    app:cardElevation="6dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/bb" />
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="266dp"
-                        android:gravity="center"
-                        android:orientation="vertical"
-                        android:padding="16dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="150dp"
-                            android:src="@drawable/bb" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:text="number 01"
+                        android:textColor="#020202"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
 
 
-                        <RelativeLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
+                </RelativeLayout>
 
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="12dp"
-                                android:text="number 01"
-                                android:textColor="#020202"
-                                android:textSize="22sp"
-                                android:textStyle="bold" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
-
-                        </RelativeLayout>
-
-                        <RelativeLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="number 02"
-                                android:textColor="#6f6f6f"
-                                android:textSize="18sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="number 02"
+                        android:textColor="#6f6f6f"
+                        android:textSize="18sp" />
 
 
-                        </RelativeLayout>
+                </RelativeLayout>
 
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_rowWeight="1"
-                    android:layout_columnWeight="1"
-                    android:layout_margin="12dp"
-                    app:cardCornerRadius="5dp"
-                    app:cardElevation="6dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:gravity="center"
-                        android:orientation="vertical"
-                        android:padding="16dp">
-
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="150dp"
-                            android:src="@drawable/bb" />
-
-                        <RelativeLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="12dp"
-                                android:text="number 01"
-                                android:textColor="#020202"
-                                android:textSize="22sp"
-                                android:textStyle="bold" />
+            </LinearLayout>
 
 
-                        </RelativeLayout>
+            <!--                </androidx.cardview.widget.CardView>-->
 
-                        <RelativeLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
+            <!--                <androidx.cardview.widget.CardView-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_rowWeight="1"-->
+            <!--                    android:layout_columnWeight="1"-->
+            <!--                    android:layout_margin="12dp"-->
+            <!--                    app:cardCornerRadius="5dp"-->
+            <!--                    app:cardElevation="6dp">-->
 
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="number 02"
-                                android:textColor="#6f6f6f"
-                                android:textSize="18sp" />
+            <!--                    <LinearLayout-->
+            <!--                        android:layout_width="match_parent"-->
+            <!--                        android:layout_height="match_parent"-->
+            <!--                        android:gravity="center"-->
+            <!--                        android:orientation="vertical"-->
+            <!--                        android:padding="16dp">-->
+
+            <!--                        <ImageView-->
+            <!--                            android:layout_width="match_parent"-->
+            <!--                            android:layout_height="150dp"-->
+            <!--                            android:src="@drawable/bb" />-->
+
+            <!--                        <RelativeLayout-->
+            <!--                            android:layout_width="match_parent"-->
+            <!--                            android:layout_height="wrap_content">-->
+
+            <!--                            <TextView-->
+            <!--                                android:layout_width="wrap_content"-->
+            <!--                                android:layout_height="wrap_content"-->
+            <!--                                android:layout_marginTop="12dp"-->
+            <!--                                android:text="number 01"-->
+            <!--                                android:textColor="#020202"-->
+            <!--                                android:textSize="22sp"-->
+            <!--                                android:textStyle="bold" />-->
 
 
-                        </RelativeLayout>
+            <!--                        </RelativeLayout>-->
 
-                    </LinearLayout>
-                </androidx.cardview.widget.CardView>
+            <!--                        <RelativeLayout-->
+            <!--                            android:layout_width="match_parent"-->
+            <!--                            android:layout_height="wrap_content">-->
+
+            <!--                            <TextView-->
+            <!--                                android:layout_width="wrap_content"-->
+            <!--                                android:layout_height="wrap_content"-->
+            <!--                                android:text="number 02"-->
+            <!--                                android:textColor="#6f6f6f"-->
+            <!--                                android:textSize="18sp" />-->
 
 
+            <!--                        </RelativeLayout>-->
 
+            <!--                    </LinearLayout>-->
+
+                            </androidx.cardview.widget.CardView>
 
 
         </GridLayout>
@@ -227,17 +270,16 @@
 
     </LinearLayout>
 
-    </ScrollView>
 
 
     <View
         android:id="@+id/bottom"
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:background="@drawable/bottombackground"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/bottombackground"/>
 
     <LinearLayout
         android:id="@+id/shop"

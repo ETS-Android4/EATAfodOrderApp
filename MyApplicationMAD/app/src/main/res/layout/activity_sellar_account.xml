@@ -8,7 +8,6 @@
 
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cardView3"
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:layout_margin="10dp"
@@ -28,6 +27,7 @@
             app:srcCompat="@drawable/profileicon"
 
 
+
             tools:ignore="ContentDescription" />
 
     </androidx.cardview.widget.CardView>
@@ -39,8 +39,7 @@
         android:layout_height="69dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="172dp"
-        app:layout_constraintEnd_toStartOf="@+id/cardView3"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/asset_1" />
@@ -48,13 +47,12 @@
 
     <ScrollView
         android:id="@+id/scrollView2"
-        android:layout_width="406dp"
-        android:layout_height="574dp"
-        android:layout_marginTop="12dp"
+        android:layout_width="415dp"
+        android:layout_height="638dp"
         android:fillViewport="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardView3"
+        tools:layout_editor_absoluteY="93dp"
         tools:ignore="MissingConstraints">
 
         <LinearLayout
@@ -75,13 +73,16 @@
                     android:layout_height="match_parent"
                     android:scaleType="centerCrop"
                     android:src="@drawable/man" />
-
-
             </androidx.cardview.widget.CardView>
 
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Delete My Shop"
+                android:textColor="@color/white" />
 
             <Button
-                android:id="@+id/addResturant"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
@@ -94,7 +95,6 @@
                 android:layout_marginLeft="20dp"
                 android:text="Edit Account"
                 android:textColor="@color/white" />
-
 
 
             <!-- shops start -->
@@ -118,7 +118,6 @@
                     app:cardElevation="6dp">
 
                     <LinearLayout
-                        android:id="@+id/Shop1"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:gravity="center"
@@ -156,34 +155,6 @@
                                 android:text="number 02"
                                 android:textColor="#6f6f6f"
                                 android:textSize="18sp" />
-
-
-                        </RelativeLayout>
-
-                        <RelativeLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
-
-                            <Button
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:backgroundTint="#EA0C0C"
-                                android:text="Delete Resturant"
-                                android:textColor="@color/white" />
-
-
-                        </RelativeLayout>
-
-                        <RelativeLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
-
-                            <Button
-                                android:id="@+id/editResturant"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="Edit Resturant"
-                                android:textColor="@color/white" />
 
 
                         </RelativeLayout>
@@ -243,20 +214,6 @@
 
                         </RelativeLayout>
 
-                        <RelativeLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
-
-                            <Button
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:backgroundTint="#EA0C0C"
-                                android:text="Delete Resturant"
-                                android:textColor="@color/white" />
-
-
-                        </RelativeLayout>
-
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
@@ -308,20 +265,6 @@
                                 android:text="number 02"
                                 android:textColor="#6f6f6f"
                                 android:textSize="18sp" />
-
-
-                        </RelativeLayout>
-
-                        <RelativeLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
-
-                            <Button
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:backgroundTint="#EA0C0C"
-                                android:text="Delete Resturant"
-                                android:textColor="@color/white" />
 
 
                         </RelativeLayout>
@@ -333,7 +276,11 @@
 
             </GridLayout>
 
-
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button" />
 
 
             <!-- shops end -->
